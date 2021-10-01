@@ -17,7 +17,7 @@
 					Technologies: HTML, CSS, Bootstrap, , PHP/Laravel, Mysql, GitHub,
 					Figma.
 					<a
-						href="https://github.com/Broken-Lore/techManager"
+						href="https://github.com/Fataaa-mood/moods-app"
 						target="_blank"
 						class="myButton"
 						>more infos</a
@@ -40,7 +40,7 @@
 					Technologies: HTML, CSS, Bootstrap, Javascript/Vue/VueX, PHP/Laravel,
 					Mysql, GitHub, Figma.
 					<a
-						href="https://github.com/Broken-Lore/techManager"
+						href="https://github.com/MuyDiversos"
 						target="_blank"
 						class="myButton"
 						>more infos</a
@@ -85,7 +85,7 @@
 					with API's. It is deployed on Heroku. Type: Back-End. Technologies:
 					HTML, CSS, Tailwinds, Laravel, Blade, GitHub, Figma.
 					<a
-						href="https://github.com/thierno1492/Web-echange"
+						href="https://github.com/Broken-Lore/techManager"
 						target="_blank"
 						class="myButton"
 						>more infos</a
@@ -107,7 +107,7 @@
 					on Heroku. Type: Back-End. Technologies: HTML, CSS, Bootstrap, PHP,
 					MySQL, Git, Figma, Trello.
 					<a
-						href="https://github.com/thierno1492/Web-echange"
+						href="https://github.com/Broken-Lore/ConsultingF5"
 						target="_blank"
 						class="myButton"
 						>more infos</a
@@ -132,7 +132,7 @@
 					agregar miembros y eliminarlos, Utilizar la imagen que prefieras. la
 					pagina se adapta a todos los dispositivos tech:html css javascript
 					<a
-						href="https://github.com/thierno1492/Web-echange"
+						href="https://github.com/Armun4/Wheel-Of-Doom"
 						target="_blank"
 						class="myButton"
 						>more infos</a
@@ -150,7 +150,7 @@
 					<b class="text-warning">casa de flores </b>
 				Description: Following the structure of the Food Delivery App, in this project Javascript was used more extensively, manipulating data in Front. It is not in production. Type: Front-End. Technologies: HTML, CSS, Javascript, GitHub, Figma, Trello.
 					<a
-						href="https://github.com/thierno1492/Web-echange"
+						href="https://github.com/thierno1492/Floristeria"
 						target="_blank"
 						class="myButton"
 						>more infos</a
@@ -168,7 +168,7 @@
 					<b class="text-warning">Hit the Doombom </b>
 					Description: Hit the Doombom was the first project I used Javascript on. The App consisted of creating a battery that worked in real time. Each click to the buttons was dynamized by event listeners. Type: Front-End. Technologies: HTML, CSS, Javascript, GitHub, Figma, Trello.
 					<a
-						href="https://github.com/thierno1492/Web-echange"
+						href="https://github.com/vchacin/Hit-the-Domboom"
 						target="_blank"
 						class="myButton"
 						>more infos</a

@@ -82,7 +82,5 @@ h3{
     opacity: 1;
 }
 
-.mystory{
-  
-}
+
 </style>

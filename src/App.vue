@@ -4,6 +4,7 @@
 		<div id="nav">
 			<router-link class="root" to="/">About Me</router-link>
 			<router-link class="root" to="/about">Projects</router-link>
+				<router-link class="root" to="/deploy">production</router-link>
 		</div>
 		<router-view />
 	</div>
@@ -39,6 +40,7 @@
 
 	#nav {
 		padding: 30px;
+		background: yellow;
 	}
 	.root {
 		font-size: 2rem;
