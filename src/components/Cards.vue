@@ -20,7 +20,8 @@
 						href="https://github.com/Fataaa-mood/moods-app"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+					>
+						infos</a
 					>
 				</p>
 			</div>
@@ -43,7 +44,8 @@
 						href="https://github.com/MuyDiversos"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+					>
+						infos</a
 					>
 				</p>
 			</div>
@@ -64,7 +66,7 @@
 						href="https://github.com/thierno1492/Web-echange"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+						>infos</a
 					>
 				</p>
 			</div>
@@ -88,7 +90,8 @@
 						href="https://github.com/Broken-Lore/techManager"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+					>
+						infos</a
 					>
 				</p>
 			</div>
@@ -110,7 +113,7 @@
 						href="https://github.com/Broken-Lore/ConsultingF5"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+						>infos</a
 					>
 				</p>
 			</div>
@@ -135,59 +138,68 @@
 						href="https://github.com/Armun4/Wheel-Of-Doom"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+					>
+						infos</a
 					>
 				</p>
 			</div>
 		</div>
 
-	<div class="contain-item">
+		<div class="contain-item">
 			<div class="contain-image">
 				<img src="../assets/flores.png" alt="" />
 			</div>
 			<div class="contain-description text-center">
 				<p>
 					<b class="text-warning">casa de flores </b>
-				Description: Following the structure of the Food Delivery App, in this project Javascript was used more extensively, manipulating data in Front. It is not in production. Type: Front-End. Technologies: HTML, CSS, Javascript, GitHub, Figma, Trello.
+					Description: Following the structure of the Food Delivery App, in this
+					project Javascript was used more extensively, manipulating data in
+					Front. It is not in production. Type: Front-End. Technologies: HTML,
+					CSS, Javascript, GitHub, Figma, Trello.
 					<a
 						href="https://github.com/thierno1492/Floristeria"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+					>
+						infos</a
 					>
 				</p>
 			</div>
 		</div>
 
-			<div class="contain-item">
+		<div class="contain-item">
 			<div class="contain-image">
 				<img src="../assets/hit.png" alt="" />
 			</div>
 			<div class="contain-description text-center">
 				<p>
 					<b class="text-warning">Hit the Doombom </b>
-					Description: Hit the Doombom was the first project I used Javascript on. The App consisted of creating a battery that worked in real time. Each click to the buttons was dynamized by event listeners. Type: Front-End. Technologies: HTML, CSS, Javascript, GitHub, Figma, Trello.
+					Description: Hit the Doombom was the first project I used Javascript
+					on. The App consisted of creating a battery that worked in real time.
+					Each click to the buttons was dynamized by event listeners. Type:
+					Front-End. Technologies: HTML, CSS, Javascript, GitHub, Figma, Trello.
 					<a
 						href="https://github.com/vchacin/Hit-the-Domboom"
 						target="_blank"
 						class="myButton"
-						>more infos</a
+					>
+						infos</a
 					>
 				</p>
 			</div>
 		</div>
-
-
-
-
 	</div>
 </template>
 <style scoped>
 	.container-fluid {
 		width: 100%;
 		margin-top: 59px;
-		background: rgb(207, 193, 193);
-		opacity: 1;
+		background: rgb(238, 174, 202);
+		background: radial-gradient(
+			circle,
+			rgba(238, 174, 202, 1) 0%,
+			rgba(148, 187, 233, 1) 100%
+		);
 	}
 	.contain-item {
 		display: grid;
@@ -209,6 +221,7 @@
 		font-size: 1.5rem;
 		margin-left: auto;
 		margin-right: auto;
+		word-wrap: break-word;
 	}
 	.myButton {
 		width: 10vw;
@@ -235,16 +248,70 @@
 		position: relative;
 		top: 1px;
 	}
+	img:hover{
+		-moz-transform: translate(13px, -5px);
+-webkit-transform: translate(13px, -5px);
+-o-transform: translate(13px, -5px);
+-ms-transform: translate(13px, -5px);
+transform: translate(13px, -5px);
+	}
 
-
-	@media  (max-width:640px){
+	@media (max-width: 640px) {
 		.contain-item {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		text-align: center;
-		border: 1px solid;
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			text-align: center;
+			border: 1px solid;
+		}
 	}
+
+	@media (max-width: 574px) {
+		p {
+			word-break: break-word;
+			margin-top: 0;
+			margin-top: 10vh;
+			font-size: 1rem;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
-		
-	
+
+	@media (max-width: 634px) {
+		p {
+			margin-top: 0;
+			margin-top: 10vh;
+			font-size: 0.9rem;
+			margin-left: auto;
+			margin-right: auto;
+			word-wrap: break-word;
+		}
+
+		img {
+			vertical-align: middle;
+			height: 50vh;
+			margin: 10px;
+		}
+
+		.myButton {
+			width: 10vw;
+			height: 4vh;
+			box-shadow: inset 0px 1px 0px 0px #fff6af;
+			background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+			background-color: #ffec64;
+			border-radius: 6px;
+			border: 1px solid #ffaa22;
+			display: inline-block;
+			cursor: pointer;
+			color: #333333;
+			font-family: Arial;
+			font-size: 0.6rem;
+			text-align: center;
+			font-weight: bold;
+			padding: 8px 3px;
+			text-decoration: none;
+			text-shadow: 0px 1px 0px #ffee66;
+		}
+	}
+
+
 </style>

@@ -2,7 +2,7 @@
 	<div  class="container-fluid" id="app">
 		<CardHeader />
 		<div id="nav">
-			<router-link class="root" to="/">About Me</router-link>
+			<router-link class="root" to="/">About </router-link>
 			<router-link class="root" to="/about">Projects</router-link>
 				<router-link class="root" to="/deploy">production</router-link>
 		</div>
@@ -21,7 +21,7 @@
 </script>
 
 <style scoped>
-	@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap");
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 	* {
 		margin: 0;
 		padding: 0;
@@ -30,6 +30,7 @@
 	#app {
 		background-image: url("./assets/home.gif");
 		background-size: 100% 100%;
+		font-family: 'Roboto', sans-serif;
 		height: auto;
 		font-family: Avenir, Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
@@ -51,7 +52,27 @@
 		margin: 20px;
 		font-family: "Koh Santepheap", cursive;
 	}
-	/* router-link{
-  background: rebeccapurple;
-} */
+@media  (max-width:664px){
+.root {
+		font-size: 1.3rem;
+		color: white;
+		border: none;
+		border-style: none;
+		text-decoration: none;
+		margin: 20px;
+	font-family: 'Roboto', sans-serif;
+	}
+  }
+
+  @media  (max-width:490px){
+.root {
+		font-size: 1rem;
+		color: white;
+		border: none;
+		border-style: none;
+		text-decoration: none;
+		margin: 20px;
+		font-family: "Koh Santepheap", cursive;
+	}
+  }
 </style>

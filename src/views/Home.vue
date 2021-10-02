@@ -81,6 +81,8 @@ h3{
     border-radius: 100% 100%;
     opacity: 1;
 }
+	@media  (max-width:664px){
 
+  }
 
 </style>

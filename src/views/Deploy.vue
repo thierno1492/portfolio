@@ -4,7 +4,55 @@
 			<div class="contain-img ">
 				<img src="../assets/mood.png" alt="" />
 			</div>
-			<div class="contain-btn "><a href="#" class="myButton">Demo</a></div>
+			<div class="contain-btn ">
+				<a
+					href="http://moods-nous-cims.herokuapp.com/"
+					class="myButton"
+					target="_blank"
+					>Demo</a
+				>
+			</div>
+		</div>
+
+		<div class="contain-items">
+			<div class="contain-img ">
+				<img src="../assets/crypto.png" alt="" />
+			</div>
+			<div class="contain-btn ">
+				<a
+					href="https://thierno-cryrpto-exchange.netlify.app/"
+					target="_blank"
+					class="myButton"
+					>Demo</a
+				>
+			</div>
+		</div>
+
+		<div class="contain-items">
+			<div class="contain-img ">
+				<img src="../assets/consultorio.png" alt="" />
+			</div>
+			<div class="contain-btn ">
+				<a
+					href="https://f5-appointment-app.herokuapp.com/"
+					target="_blank"
+					class="myButton"
+					>Demo</a
+				>
+			</div>
+		</div>
+		<div class="contain-items">
+			<div class="contain-img ">
+				<img src="../assets/wheel.png" alt="" />
+			</div>
+			<div class="contain-btn ">
+				<a
+					href="https://armun4.github.io/Wheel-Of-Doom/"
+					target="_blank"
+					class="myButton"
+					>Demo</a
+				>
+			</div>
 		</div>
 	</div>
 </template>
@@ -17,29 +65,39 @@
 </script>
 
 <style scoped>
-.container-fluid{
-    width: 100%;
-    height: 100vh;
-    margin-top: 11vh;
-}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.container-fluid {
+		width: 100%;
+		height: auto;
+		margin-top: 11vh;
+	}
 
-.contain-items{
-    background: #c2b8c2;
-        display: flex;
-        height: auto;
-        width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.contain-img{
-   width: 19%;
-height: 45vh;
-}
-.contain-img img{
-       width: 87%;
-    margin-top: 16px;
-}
+	.contain-items {
+		background: rgb(238, 174, 202);
+		background: radial-gradient(
+			circle,
+			rgba(238, 174, 202, 1) 0%,
+			rgba(148, 187, 233, 1) 100%
+		);
+		display: flex;
+		height: auto;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.contain-img {
+		width: 19%;
+		height: 47vh;
+	}
+	.contain-img img {
+		width: 58%;
+		margin-top: 21px;
+	}
 
 	.myButton {
 		box-shadow: 3px 4px 0px 0px #899599;
@@ -63,5 +121,16 @@ height: 45vh;
 	.myButton:active {
 		position: relative;
 		top: 1px;
+	}
+
+	@media (max-width: 704px) {
+		.contain-img {
+			width: 30%;
+			height: 47vh;
+		}
+		.contain-img img {
+			width: 58%;
+			margin-top: 21px;
+		}
 	}
 </style>
