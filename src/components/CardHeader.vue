@@ -20,7 +20,13 @@
           <a class="nav-link" href="https://github.com/thierno1492" target="_blank"> <img src="../assets/linkedin.png" alt=""></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-5" href="#">Email: sadialioukadi@gmail.com</a>
+          <a class="nav-link px-5" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Email: sadialioukadi@gmail.com</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link px-5" href="https://www.dropbox.com/s/f6w3ew75bl30pfb/thierno-diallo.pdf?dl=0" target="_blank">CV</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link px-5" href="#" target="_blank">+34623246425</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
